@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class pokerhand {
 
-    // **WARNING** NEVER TRY TO MAKE THIS STRING SHIT YOURSELF, ALWAYS END UP FORGETTING THE TEN AND ADDING THAT A 1
+    // **WARNING** NEVER TRY TO MAKE THIS STRING SHIT YOURSELF, ALWAYS END UP FORGETTING THE TEN AND ADDING AN EXTRA 1
     final static String stringRanks = "A23456789TJQK";
 
     public static void main(String[] args) {
