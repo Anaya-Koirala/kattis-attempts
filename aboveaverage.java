@@ -13,7 +13,7 @@ public class aboveaverage {
         Scanner input = new Scanner(System.in);
         int dataset = input.nextInt();
         while (dataset != 0) {
-            input.nextInt(); // Don't need to class size
+            input.nextInt(); // Don't need the class size
 
             double[] grades = Arrays.stream(input.nextLine().trim().split(" "))
                     .mapToDouble(Double::parseDouble)
